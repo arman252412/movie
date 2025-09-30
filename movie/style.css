@@ -1,0 +1,597 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    /* height: 1rem;  */
+    font-size: 1rem;
+}
+
+body {
+    background-color: #111;
+}
+
+header {
+    background-color: #1d252a;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    position: sticky;
+    top: 5px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    margin-right: 10rem;
+    margin-left: 3rem;
+}
+
+.logo>img {
+    width: 14rem;
+}
+
+.ul-nav {
+    display: flex;
+    column-gap: 1.20rem;
+}
+
+.ul-nav li {
+    list-style: none;
+}
+
+.res {
+    visibility: hidden;
+}
+
+.ul-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.inp>input {
+    padding: 0.70rem 3rem 0.70rem 0.90rem;
+    border-radius: 0.20rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: #111;
+    color: rgb(158, 153, 153);
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.inp>img {
+    position: relative;
+    right: 2.20rem;
+    width: 1.30rem;
+}
+
+.inp>input::placeholder {
+    font-size: 1.20rem;
+    color: rgb(129, 127, 127);
+}
+
+.ul-nav li a:hover {
+    line-height: 2rem;
+    font-size: large;
+    color: rgb(189, 185, 185);
+}
+
+/* search */
+
+.search>input {
+    padding: 0.70rem 60rem 0.70rem 1rem;
+    background-color: #111;
+    border: 1px solid rgb(209, 207, 207);
+    border-radius: 0.20rem;
+    color: rgb(165, 164, 164);
+}
+
+.search>input::placeholder {
+    color: rgb(129, 127, 127);
+    font-weight: bolder;
+    font-size: 0.90rem;
+
+}
+
+.search>input:hover {
+    background-color: black;
+}
+
+.search {
+    display: flex;
+    margin-top: 1.40rem;
+    justify-content: center;
+}
+
+/* button */
+
+.button-movie {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.first-but {
+    display: flex;
+    column-gap: 0.60rem;
+    justify-content: center;
+
+}
+
+.first-but :nth-child(1) {
+    background-color: green;
+    padding: 0.70rem 1rem 0.70rem 1rem;
+    border-radius: 0.80rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.first-but :nth-child(2) {
+    background-color: red;
+    border-radius: 0.80rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.first-but :nth-child(3) {
+    background-color: skyblue;
+    border-radius: 0.80rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.first-but :nth-child(4) {
+    background-color: orangered;
+    border-radius: 0.80rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+/* second-but */
+.second-but {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.60rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.second-but :nth-child(1) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(2) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(3) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(4) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(5) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(6) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(7) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(8) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(9) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(10) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.second-but :nth-child(11) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+/* third-but */
+
+.third-but {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.60rem;
+    margin-top: 1rem;
+    align-items: center;
+
+}
+
+.third-but :nth-child(1) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(2) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(3) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(4) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(5) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(6) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(7) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(8) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.third-but :nth-child(9) {
+    padding: 0.70rem 1.20rem 0.70rem 1.20rem;
+    border-radius: 0.80rem;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.first-card>img {
+    width: 150px;
+    margin-bottom: 1.50rem;
+    height: 240px;
+    cursor: pointer;
+    border: 0.60rem solid orangered;
+}
+
+.first-card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    margin-top: 2.20rem;
+}
+
+.margin-but {
+    margin-bottom: 1.10rem;
+}
+
+.first-card span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* copy-footer */
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    column-gap: 1.80rem;
+}
+
+.box {
+    background-color: #111;
+    height: 2.50rem;
+    width: 2.50rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-1 {
+    background-color: #fe0000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-2:hover {
+    border: 3px solid red;
+}
+
+.box-3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-3:hover {
+    border: 3px solid red;
+}
+
+.box-4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-4:hover {
+    border: 3px solid red;
+}
+
+.img-dot>span {
+    font-size: 2rem;
+    color: white;
+}
+
+/* BUTTON */
+.but-foot {
+    display: flex;
+    position: relative;
+    left: 23rem;
+}
+
+.but-foot>button {
+    background-color: #111;
+    padding: 0.50rem 1rem 0.50rem 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* resposnive */
+@media (max-width:360px) {
+    .search>input {
+        padding: 0.50rem 3rem 0.50rem 3rem;
+    }
+
+    .first-but {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 0.80rem;
+
+    }
+
+
+    header {
+        overflow-x: hidden;
+    }
+
+    .second-but {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1.50rem;
+        padding: 25px;
+    }
+
+    .second-but>button {
+        padding: -5px 0px 0px 0px;
+        font-size: 12px;
+    }
+
+    .third-but {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 1rem;
+        padding: 20px;
+    }
+
+
+    .card {
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        column-gap: 0.50rem;
+    }
+
+    .first-card>img {
+        width: 150px;
+        height: 240px
+    }
+
+    .copy-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        /* margin-left: 3rem; */
+    }
+
+    header {
+        position: sticky;
+        top: 5px;
+    }
+
+    .but-foot {
+        display: flex;
+        position: relative;
+        left: -0rem;
+    }
+
+    .but-foot>button {
+        background-color: #111;
+        padding: 0.50rem 1rem 0.50rem 1rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .inp>img {
+        position: relative;
+        right: 56rem;
+        width: 1.30rem;
+    }
+
+    .logo>img {
+        margin-right: 1rem;
+    }
+
+}
